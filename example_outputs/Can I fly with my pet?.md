@@ -1,4 +1,4 @@
-# Can I fly with my pet?
+# Can I fly with my pet
 
 ## Sources
 1. https://www.ferndalekennels.com/en/blog/can-you-take-your-dog-on-a-plane-in-australia/
