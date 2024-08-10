@@ -1,0 +1,20 @@
+'''from concurrent.futures import ThreadPoolExecutor, as_completed
+
+def task(n):
+    import time
+    time.sleep(n)
+    return n
+
+with ThreadPoolExecutor(max_workers=4) as executor:
+    futures = [executor.submit(task, i) for i in range(5)]
+    for future in as_completed(futures):
+        print(future.result())'''
+def get_query():
+    """Prompt the user to enter a query."""
+    return input("Enter your query: ")
+# You can modify this function to handle user input differently if needed
+def main():
+    query = get_query()
+    print(f"User query: {query}")
+if __name__ == "__main__":
+    main()
